@@ -3,6 +3,9 @@
 #  defaults: { _controller: 'AppBundle\Controller\DefaultController::indexAction' }
 #  methods:  GET
 #
+controllers:
+  resource: '../src/App/Controller/'
+  type: annotation
 
 setupcheck:
     path: /api/setup-check
