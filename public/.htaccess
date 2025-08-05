@@ -11,10 +11,13 @@
 DirectoryIndex index.php
 
 # file uploads
-php_value upload_max_filesize 50M
-php_value post_max_size 105M
-php_value max_file_uploads 20
-php_value max_input_vars 3000
+
+# Moved to php.ini bc of how laragon works
+
+# php_value upload_max_filesize 50M
+# php_value post_max_size 105M
+# php_value max_file_uploads 20
+# php_value max_input_vars 3000
 
 # By default, Apache does not evaluate symbolic links if you did not enable this
 # feature in your server configuration. Uncomment the following line if you
